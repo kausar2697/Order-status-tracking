@@ -1,0 +1,100 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+  font-family: Helvetica neue, roboto;
+}
+
+.order-detail{
+    text-align: center;
+    margin: 0 auto;
+}
+.order-detail .card{
+    width: 330px;
+    border: none;
+    height: 350px;
+    border-radius: 15px;
+    background-color: rgb(156, 191, 61)
+}
+
+.order-detail .upper {
+    padding: 20px;
+    color: #fff
+}
+
+.order-detail hr.new1 {
+    border-top: 2px dashed #fff
+}
+
+.order-detail .bottom {
+    padding: 20px;
+    color: #fff
+}
+
+.order-detail .muted-text {
+    color: #ffffffa3
+}
+
+.progress-ba .progress-content{
+    width: 70%;
+    margin: 0 auto;
+}
+.progress-ba img{
+    width: 80px;
+    padding: 15px;  
+}
+
+.progress-ba ul{
+    position: relative;
+    list-style: none;
+}
+.progress-ba ul li{
+    color: #cccccc;
+}
+.progress-ba ul li.done{
+    color: #008800;
+}
+.progress-ba ul li.processing{
+    color: #00ff00;
+}
+.progress-ba ul li i{
+    margin-left: -10px;
+    background: white;
+}
+.progress-ba ul::after{
+    content: "";
+    position: absolute;
+    width: 3px;
+    height: calc( 100% - 90px);
+    top: 0;
+    background: #cccccc;
+    margin-top: 35px;
+    z-index: -1;
+}
+
+
+.progress-ba ul li p{
+    position: relative;
+    font-size: rem;
+    font-weight: 500;
+    line-height: 1rem;
+    display: inline-block;
+    padding: 30px;
+    
+}
+
+.progress-ba ul li p span{
+    display: inline-block;
+    color: #cccccc;
+    
+}
+
+.progress-ba ul li .fa{
+    font-size: 30px;
+    border-radius: 50%;
+    
+}
+
